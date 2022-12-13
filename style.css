@@ -8,12 +8,14 @@
     background-color: rgb(32, 152, 221);
 }
 
-.nav-logo {
-    font-weight: bold;
-}
-
 @media screen and (max-width: 992px) {
     .nav-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-logo {
         display: none;
     }
 }
