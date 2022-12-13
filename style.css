@@ -1,0 +1,17 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Section */
+
+.background-navbar {
+    background-color: rgb(32, 152, 221);
+}
+
+.nav-logo {
+    font-weight: bold;
+}
+
+.nav-size {
+    font-size: 26px;
+}
