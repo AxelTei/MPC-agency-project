@@ -21,3 +21,8 @@
 .nav-size {
     font-size: 26px;
 }
+
+.nav-loupe {
+    color: white;
+    border: solid 2px;
+}
