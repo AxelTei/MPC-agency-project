@@ -32,3 +32,9 @@
 .img-border-profil {
     border-radius: 100%;
 }
+
+.img-title-profil {
+    font-weight: bold;
+    background-color: white;
+    text-transform: uppercase;
+}
