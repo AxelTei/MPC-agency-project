@@ -38,3 +38,43 @@
     background-color: white;
     text-transform: uppercase;
 }
+
+.serviette-list {
+    display: inline;
+}
+
+.serviette-color-black {
+    color: black;
+}
+
+.serviette-color-bordeaux {
+    color: #aa0b29;
+}
+
+.serviette-color-red {
+    color: red;
+}
+
+.serviette-color-blue {
+    color: #0000CD;
+}
+
+.serviette-color-green-anis {
+    color: #9ACD32;
+}
+
+.serviette-color-green-jaguar {
+    color: #228B22;
+}
+
+.serviette-color-chocolate {
+    color: #8B4513;
+}
+
+.serviette-color-turquoise {
+    color: #48D1CC;
+}
+
+.serviette-color-natural {
+    color: #F5DEB3;
+}
