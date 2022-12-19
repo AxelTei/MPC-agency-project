@@ -55,7 +55,7 @@
 
 #myBtn {
     display: none;
-    position: sticky;
+    position: fixed;
     bottom: 20px;
     right: 30px;
     z-index: 99;
@@ -67,6 +67,7 @@
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
+    width: 150px;
 }
 
 #myBtn:hover {
