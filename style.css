@@ -47,6 +47,12 @@
     text-transform: uppercase;
 }
 
+.img-section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .serviette-list {
     display: inline;
 }
