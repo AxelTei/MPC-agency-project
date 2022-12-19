@@ -1,3 +1,5 @@
+
+// Buttons Go-to-the-Top Functions
 let myButton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
@@ -18,3 +20,6 @@ function topFunction()
 }
 
 myButton.addEventListener("click", topFunction);
+
+// SearchBar Functions
+
