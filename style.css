@@ -121,3 +121,12 @@
 }
 
 /* Contact Section */
+
+.contact-title {
+    position: grid;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: white;
+}
