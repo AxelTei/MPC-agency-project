@@ -130,3 +130,13 @@
     text-decoration: none;
     color: white;
 }
+
+.valid {
+    color: #228B22;
+    display: none;
+}
+
+.invalid {
+    color: #aa0b29;
+    display: none;
+}

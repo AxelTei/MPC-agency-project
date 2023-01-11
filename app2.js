@@ -1,0 +1,3 @@
+// Contact Functions
+
+alert('salut')
