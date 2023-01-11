@@ -1,3 +1,2 @@
 // Contact Functions
 
-alert('salut')
