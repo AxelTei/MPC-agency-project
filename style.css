@@ -122,6 +122,14 @@
 
 /* Contact Section */
 
+.form-title {
+    font-weight: 600;
+}
+
+.form-sentence {
+    color: rgb(118, 114, 114);
+}
+
 .contact-title {
     position: grid;
     color: rgb(32, 152, 221);
