@@ -124,19 +124,20 @@
 
 .contact-title {
     position: grid;
+    color: rgb(32, 152, 221);
+    font-size: 45px;
+
 }
 
-.contact-links {
+.contact-link {
+    color: rgb(199, 173, 100);
+    display: block;
+    font-size: 25px;
+}
+
+.contact-link2 {
     text-decoration: none;
-    color: white;
-}
-
-.valid {
-    color: #228B22;
-    display: none;
-}
-
-.invalid {
-    color: #aa0b29;
-    display: none;
+    color: rgb(199, 173, 100);
+    display: block;
+    font-size: 25px;
 }
