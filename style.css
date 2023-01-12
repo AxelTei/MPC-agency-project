@@ -55,6 +55,12 @@
     text-decoration: underline;
 }
 
+.sentence-section-title {
+    color: rgb(118, 114, 114);
+    display: block;
+    font-size: 20px;
+}
+
 /* Button Section */
 
 #myBtn {
