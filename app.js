@@ -24,22 +24,56 @@ myButton.addEventListener("click", topFunction);
 // SearchBar Functions
 
 const navbarButton = document.getElementById('searchProduct');
-const card = document.querySelector('#cardN');
+const cards = document.querySelector('.card');
 const header = document.querySelector('.card-title');
 const navbarInput = document.getElementById('inputSearch');
 
 let products = [
+    {},
     {
         id: 1,
-        title : 'Serviette Double Point Noire'
+        title: 'Serviette Double Point Noire'
     },
     {
         id: 2,
         title: 'Serviette Double Point Grise'
+    },
+    {
+        id: 3,
+        title: 'Serviette Double Point Ivoire'
     }
 ];
 
-navbarButton.addEventListener("click", () => {
-    window.location.href = card;
-});
+//loop on each object from products array
 
+// products.forEach(function(item, index) {
+//     console.log(item, index);
+// })
+
+// Redirect to the good component
+
+// navbarButton.addEventListener('click', function(e){
+//     e.preventDefault();
+//     window.location.replace("serviettes.html#airlaid");
+// })
+
+// Main Template
+
+function findProduct(e) {
+    products.forEach(function(item, index) {
+        console.log(item, index);
+    })
+    e.preventDefault();
+    window.location.replace("serviettes.html#airlaid");
+}
+
+// Start condition (replace "yo" with item and "serviette.html" with "serviette.html" + index)
+
+navbarInput.addEventListener('blur', (e) => {
+    let input = e.target.value
+    if (input == "yo") {
+        document.location.replace("serviettes.html")
+    }
+})
+
+navbarButton.addEventListener('click', findProduct)
