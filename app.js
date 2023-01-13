@@ -22,3 +22,24 @@ function topFunction()
 myButton.addEventListener("click", topFunction);
 
 // SearchBar Functions
+
+const navbarButton = document.getElementById('searchProduct');
+const card = document.querySelector('#cardN');
+const header = document.querySelector('.card-title');
+const navbarInput = document.getElementById('inputSearch');
+
+let products = [
+    {
+        id: 1,
+        title : 'Serviette Double Point Noire'
+    },
+    {
+        id: 2,
+        title: 'Serviette Double Point Grise'
+    }
+];
+
+navbarButton.addEventListener("click", () => {
+    window.location.href = card;
+});
+
