@@ -32,15 +32,15 @@ let products = [
     {},
     {
         id: 1,
-        title: 'Serviette Double Point Noire'
+        title: 'serviette double point noire'
     },
     {
         id: 2,
-        title: 'Serviette Double Point Grise'
+        title: 'serviette double point grise'
     },
     {
         id: 3,
-        title: 'Serviette Double Point Ivoire'
+        title: 'serviette double point ivoire'
     }
 ];
 
@@ -66,9 +66,11 @@ let products = [
 
 function mainSearchBar(e) {
     let input = e.target.value
+    let filter = input.toLowerCase()
+    console.log(filter)
     products.forEach(function(product) {
         console.log(product)
-        if (input == product.title) {
+        if (filter == product.title) {
             document.location.replace("serviettes.html#" + product.id)
         } else {
             alert('ça ne  fonctionne pas')
