@@ -24,8 +24,6 @@ myButton.addEventListener("click", topFunction);
 // SearchBar Functions
 
 const navbarButton = document.getElementById('searchProduct');
-const cards = document.querySelector('.card');
-const header = document.querySelector('.card-title');
 const navbarInput = document.getElementById('inputSearch');
 
 let products = [
@@ -45,24 +43,8 @@ let products = [
 ];
 
 
-// Main Template
-
-// function findProduct(e) {
-//     products.forEach(function(item, index) {
-//         console.log(item, index);
-//     })
-//     e.preventDefault();
-//     window.location.replace("serviettes.html#airlaid");
-// }
-
-// Start condition (replace "yo" with item and "serviette.html" with "serviette.html" + index)
-
-// function compareInput(e) {
-//     let input = e.target.value
-//     if (input == "yo") {
-//         document.location.replace("serviettes.html")
-//     }
-// }
+// Simple SearchBar Function with Maj case insensitive but still stay sensitive to space between words.
+// Without a catch of exception with a log to make if you to understand User Input; (update)
 
 function mainSearchBar(e) {
     let input = e.target.value
@@ -73,14 +55,9 @@ function mainSearchBar(e) {
         if (filter == product.title) {
             document.location.replace("serviettes.html#" + product.id)
         } else {
-            alert('ça ne  fonctionne pas')
+            return false;
         }
     })
 }
 
-// Il manque le filtre pour rendre la search case insensitive
-// Et une fonction copie dans addEventListener du button
 navbarInput.addEventListener('blur', mainSearchBar)
-
-// navbarInput.addEventListener('blur', compareInput)
-// navbarButton.addEventListener('click', findProduct)
