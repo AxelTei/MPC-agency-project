@@ -44,36 +44,41 @@ let products = [
     }
 ];
 
-//loop on each object from products array
-
-// products.forEach(function(item, index) {
-//     console.log(item, index);
-// })
-
-// Redirect to the good component
-
-// navbarButton.addEventListener('click', function(e){
-//     e.preventDefault();
-//     window.location.replace("serviettes.html#airlaid");
-// })
 
 // Main Template
 
-function findProduct(e) {
-    products.forEach(function(item, index) {
-        console.log(item, index);
-    })
-    e.preventDefault();
-    window.location.replace("serviettes.html#airlaid");
-}
+// function findProduct(e) {
+//     products.forEach(function(item, index) {
+//         console.log(item, index);
+//     })
+//     e.preventDefault();
+//     window.location.replace("serviettes.html#airlaid");
+// }
 
 // Start condition (replace "yo" with item and "serviette.html" with "serviette.html" + index)
 
-navbarInput.addEventListener('blur', (e) => {
-    let input = e.target.value
-    if (input == "yo") {
-        document.location.replace("serviettes.html")
-    }
-})
+// function compareInput(e) {
+//     let input = e.target.value
+//     if (input == "yo") {
+//         document.location.replace("serviettes.html")
+//     }
+// }
 
-navbarButton.addEventListener('click', findProduct)
+function mainSearchBar(e) {
+    let input = e.target.value
+    products.forEach(function(product) {
+        console.log(product)
+        if (input == product.title) {
+            document.location.replace("serviettes.html#" + product.id)
+        } else {
+            alert('ça ne  fonctionne pas')
+        }
+    })
+}
+
+// Il manque le filtre pour rendre la search case insensitive
+// Et une fonction copie dans addEventListener du button
+navbarInput.addEventListener('blur', mainSearchBar)
+
+// navbarInput.addEventListener('blur', compareInput)
+// navbarButton.addEventListener('click', findProduct)
