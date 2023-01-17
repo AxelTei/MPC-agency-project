@@ -232,8 +232,107 @@ let products = [
         title: 'nappes blanches',
         category: 'setDeTables'
         // div pour nappes tout court
-    }
-
+    },
+    {
+        id: 39,
+        title: 'tablier jetable',
+        category: 'hygienes'
+        // div pour le titre entier
+    },
+    {
+        id: 40,
+        title: 'bobine gaufrée',
+        category: 'hygienes'
+        // div pour sans accent et titre entier
+    },
+    {
+        id: 41,
+        title: 'bobine lisse',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 42,
+        title: 'pailles de fer',
+        category: 'hygienes'
+    },
+    {
+        id: 43,
+        title: 'éponge',
+        category: 'hygienes'
+        // div pour sans accent et titre entier 
+    },
+    {
+        id: 44,
+        title: 'frange espagnol',
+        category: 'hygienes'
+    },
+    {
+        id: 45,
+        title: 'rouleaux film alimentaire',
+        category: 'hygienes'
+        // div pour titre entier et au singulier et div rouleau tout court
+    },
+    {
+        id: 46,
+        title: 'rouleaux film aluminium',
+        category: 'hygienes'
+        // div pour au singulier et titre entier
+    },
+    {
+        id: 47,
+        title: 'sac poubelles',
+        category: 'hygienes'
+        // div singulier et pluriel
+    },
+    {
+        id: 48,
+        title: 'plonge manuelle vaisselle',
+        category: 'hygienes'
+        // div pour "plonge vaisselle"
+    },
+    {
+        id: 49,
+        title: 'décapant four acide',
+        category: 'hygienes'
+        // div pour "décapant" et "décapant four"
+    },
+    {
+        id: 50,
+        title: 'dyacil',
+        category: 'hygienes'
+        // div pour "détergent" et "désinfectant cuisine" et titre entier sans parenthese
+    },
+    {
+        id: 51,
+        title: 'chlormouss',
+        category: 'hygienes'
+        // div pour "blanchisseur cuisine"
+    },
+    {
+        id: 52,
+        title: 'duosol',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 53,
+        title: 'déboucheur traitement des canalisations',
+        category: 'hygienes'
+        // div pour "déboucheur" et "deboucheur"
+    },
+    {
+        id: 54,
+        title: 'alcool ménager',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 55,
+        title: 'pro tartre détartrant machine',
+        category: 'hygienes'
+        // div pour détartrant machine
+    },
 ];
 
 
@@ -243,7 +342,6 @@ let products = [
 function mainSearchBar(e) {
     let input = e.target.value
     let filter = input.toLowerCase()
-    console.log(filter)
     products.forEach(function(product) {
         console.log(product)
         if (filter == product.title) {
@@ -272,7 +370,11 @@ email.addEventListener('input', (event) => {
     error.innerText = 'Le format de l\'email est incorrect'
   } else {
     error.innerText = ''
-    // A empecher le button de submit tant que le format n'est pas bon
+    // Empeche le button de submit tant que le format n'est pas bon
     button.style.display = '';
   }
 })
+
+// Blacklist Functions à faire mais il est preferable de passer par des modules node.js ou react pour une veritable securité
+
+const blackList = /\w/
