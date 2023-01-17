@@ -59,7 +59,7 @@ let products = [
     {
         id: 8,
         title: 'serviette double point bleu marine'
-        //point de rajout
+        // avec une autre div faire le bleu
     },
     {
         id: 9,
@@ -68,7 +68,72 @@ let products = [
     {
         id: 10,
         title: 'serviette double point vert jaguar'
-        //point de rajout
+    },
+    {
+        id: 11,
+        title: 'serviette double point chocolat'
+    },
+    {
+        id: 12,
+        title: 'serviette airlaid noire'
+    },
+    {
+        id: 13,
+        title: 'serviette airlaid blanche'
+    },
+    {
+        id: 14,
+        title: 'serviette airlaid grise'
+    },
+    {
+        id: 15,
+        title: 'serviette airlaid rouge'
+    },
+    {
+        id: 16,
+        title: 'serviette airlaid bordeaux'
+    },
+    {
+        id: 17,
+        title: 'serviette airlaid bleu marine'
+        // idem
+    },
+    {
+        id: 18,
+        title: 'serviette airlaid turquoise'
+    },
+    {
+        id: 19,
+        title: 'serviette airlaid ivoire'
+    },
+    {
+        id: 20,
+        title: 'serviette airlaid chocolat'
+    },
+    {
+        id: 21,
+        title: 'serviette airlaid pliage blanche'
+        // avec une autre div faire le 1/8
+    },
+    {
+        id: 22,
+        title: 'serviette airlaid pliage noire'
+        // idem
+    },
+    {
+        id: 23,
+        title: 'serviette kangourou pliée noire'
+        // avec une autre div faire le kangourou sans pliée
+    },
+    {
+        id: 24,
+        title: 'serviette kangourou pliée grise'
+        // idem
+    },
+    {
+        id: 25,
+        title: 'serviette kangourou pliée blanche'
+        // idem
     }
 ];
 
