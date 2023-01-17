@@ -39,6 +39,36 @@ let products = [
     {
         id: 3,
         title: 'serviette double point ivoire'
+    },
+    {
+        id: 4,
+        title: 'serviette double point naturelle'
+    },
+    {
+        id: 5,
+        title: 'serviette double point blanche'
+    },
+    {
+        id: 6,
+        title: 'serviette double point rouge'
+    },
+    {
+        id: 7,
+        title: 'serviette double point bordeaux'
+    },
+    {
+        id: 8,
+        title: 'serviette double point bleu marine'
+        //point de rajout
+    },
+    {
+        id: 9,
+        title: 'serviette double point turquoise'
+    },
+    {
+        id: 10,
+        title: 'serviette double point vert jaguar'
+        //point de rajout
     }
 ];
 
