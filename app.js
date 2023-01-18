@@ -637,6 +637,40 @@ let products = [
         category: 'aEmporter'
         //div "serviette snack"
     },
+    {
+        id: 111,
+        title: 'fontaine scintillante sparkler',
+        category: 'divers'
+        // div pour "sparkler" et " fontaine scintillante"
+    },
+    {
+        id: 112,
+        title: 'rouleaux caisse enregistreuse',
+        category: 'divers'
+    },
+    {
+        id: 113,
+        title: 'rouleaux tpe',
+        category: 'divers'
+    },
+    {
+        id: 114,
+        title: 'pailles biodégradables',
+        category: 'divers'
+        // div "pailles"
+    },
+    {
+        id: 115,
+        title: 'pailles cocktails',
+        category: 'divers'
+        // div titre entier
+    },
+    {
+        id: 116,
+        title: 'bloc prise de commande',
+        category: 'divers'
+        // div "tripli" et "dupli"
+    }
 ];
 
 
