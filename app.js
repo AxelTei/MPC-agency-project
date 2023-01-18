@@ -197,7 +197,11 @@ let products = [
         id: 27,
         title: 'set de table bleu marine',
         category: 'setDeTables'
-        // div pour bleu sans marine
+    },
+    {
+        id: 124,
+        title: 'set de table bleu',
+        category: 'setDeTables'
     },
     {
         id: 28,
@@ -223,7 +227,11 @@ let products = [
         id: 32,
         title: 'set de table kraft',
         category: 'setDeTables'
-        // div pour naturelle sans kraft
+    },
+    {
+        id: 125,
+        title: 'set de table naturelle',
+        category: 'setDeTables'
     },
     {
         id: 33,
@@ -232,34 +240,84 @@ let products = [
         // faire div pour sans accent et set de table airlaid noir (sans tete a tete)
     },
     {
+        id: 126,
+        title: 'airlaid noir tete a tete',
+        category: 'setDeTables'
+    },
+    {
+        id: 127,
+        title: 'set de table airlaid noir',
+        category: 'setDeTables'
+    },
+    {
         id: 34,
         title: 'airlaid chocolat tête à tête',
         category: 'setDeTables'
-        // idem
+    },
+    {
+        id: 128,
+        title: 'airlaid chocolat tete a tete',
+        category: 'setDeTables'
+    },
+    {
+        id: 129,
+        title: 'set de table airlaid chocolat',
+        category: 'setDeTables'
     },
     {
         id: 35,
         title: 'airlaid ivoire tête à tête',
         category: 'setDeTables'
-        // idem
+    },
+    {
+        id: 130,
+        title: 'airlaid ivoire tete a tete',
+        category: 'setDeTables'
+    },
+    {
+        id: 131,
+        title: 'set de table airlaid ivoire',
+        category: 'setDeTables'
     },
     {
         id: 36,
         title: 'airlaid bordeaux tête à tête',
         category: 'setDeTables'
-        // idem
+    },
+    {
+        id: 132,
+        title: 'airlaid bordeaux tete a tete',
+        category: 'setDeTables'
+    },
+    {
+        id: 133,
+        title: 'set de table airlaid bordeaux',
+        category: 'setDeTables'
     },
     {
         id: 37,
         title: 'airlaid blanc tête à tête',
         category: 'setDeTables'
-        // idem
+    },
+    {
+        id: 134,
+        title: 'airlaid blanc tete a tete',
+        category: 'setDeTables'
+    },
+    {
+        id: 135,
+        title: 'set de table airlaid blanc',
+        category: 'setDeTables'
     },
     {
         id: 38,
         title: 'nappes blanches',
         category: 'setDeTables'
-        // div pour nappes tout court
+    },
+    {
+        id: 136,
+        title: 'nappes',
+        category: 'setDeTables'
     },
     {
         id: 39,
