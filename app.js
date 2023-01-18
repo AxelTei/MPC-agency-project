@@ -67,7 +67,11 @@ let products = [
         id: 8,
         title: 'serviette double point bleu marine',
         category: 'serviettes'
-        // avec une autre div faire le bleu
+    },
+    {
+        id: 117,
+        title: 'serviette double point bleu',
+        category: 'serviettes'
     },
     {
         id: 9,
@@ -113,7 +117,11 @@ let products = [
         id: 17,
         title: 'serviette airlaid bleu marine',
         category: 'serviettes'
-        // idem
+    },
+    {
+        id: 118,
+        title: 'serviette airlaid bleu',
+        category: 'serviettes'
     },
     {
         id: 18,
@@ -134,31 +142,51 @@ let products = [
         id: 21,
         title: 'serviette airlaid pliage blanche',
         category: 'serviettes'
-        // avec une autre div faire le 1/8
+    },
+    {
+        id: 119,
+        title: 'serviette airlaid pliage 1/8 blanche',
+        category: 'serviettes'
     },
     {
         id: 22,
         title: 'serviette airlaid pliage noire',
         category: 'serviettes'
-        // idem
+    },
+    {
+        id: 120,
+        title: 'serviette airlaid pliage 1/8 noire',
+        category: 'serviettes'
     },
     {
         id: 23,
         title: 'serviette kangourou pliée noire',
         category: 'serviettes'
-        // avec une autre div faire le kangourou sans pliée
+    },
+    {
+        id: 121,
+        title: 'serviette kangourou noire',
+        category: 'serviettes'
     },
     {
         id: 24,
         title: 'serviette kangourou pliée grise',
         category: 'serviettes'
-        // idem
+    },
+    {
+        id: 122,
+        title: 'serviette kangourou grise',
+        category: 'serviettes'
     },
     {
         id: 25,
         title: 'serviette kangourou pliée blanche',
         category: 'serviettes'
-        // idem
+    },
+    {
+        id: 123,
+        title: 'serviette kangourou blanche',
+        category: 'serviettes'
     },
     {
         id: 26,
