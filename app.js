@@ -333,6 +333,211 @@ let products = [
         category: 'hygienes'
         // div pour détartrant machine
     },
+    {
+        id: 56,
+        title: 'assouplissant',
+        category: 'hygienes'
+    },
+    {
+        id: 57,
+        title: 'javel',
+        category: 'hygienes'
+    },
+    {
+        id: 58,
+        title: 'legno',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 59,
+        title: 'liquide lavage machine automatique',
+        category: 'hygienes'
+        // div pour "liquide lavage"
+    },
+    {
+        id: 60,
+        title: 'spray nettoyant inox',
+        category: 'hygienes'
+        // div pour "spray nettoyant"
+    },
+    {
+        id: 61,
+        title: 'spray nettoyant four',
+        category: 'hygienes'
+    },
+    {
+        id: 62,
+        title: 'spray dégraissant',
+        category: 'hygienes'
+        // div pour "spray degraissant" et "spray détergent"
+    },
+    {
+        id: 63,
+        title: 'nettoyant plancha',
+        category: 'hygienes'
+    },
+    {
+        id: 64,
+        title: 'pastille chlore',
+        category: 'hygienes'
+        // div pour "chlore"
+    },
+    {
+        id: 65,
+        title: 'gants nitrile',
+        category: 'hygienes'
+        // div pour "gants"
+    },
+    {
+        id: 66,
+        title: 'gants latex',
+        category: 'hygienes'
+    },
+    {
+        id: 67,
+        title: 'vinaigre alcool blanc',
+        category: 'hygienes'
+    },
+    {
+        id: 68,
+        title: 'dégraissant multi-surfaces',
+        category: 'hygienes'
+        // div pour "dégraissant" et "degraissant"
+    },
+    {
+        id: 69,
+        title: 'sel pour adoucisseur',
+        category: 'hygienes'
+    },
+    {
+        id: 70,
+        title: 'pastille lave-vaisselle',
+        category: 'hygienes'
+    },
+    {
+        id: 71,
+        title: 'liquide rinçage machine',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 72,
+        title: 'raclette avec manche aluminium',
+        category: 'hygienes'
+        // div pour raclette
+    },
+    {
+        id: 73,
+        title: 'maxi jumbo',
+        category: 'hygienes'
+    },
+    {
+        id: 74,
+        title: 'mini jumbo',
+        category: 'hygienes'
+    },
+    {
+        id: 75,
+        title: 'essuie main',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 76,
+        title: 'papier hygiènique',
+        category: 'hygienes'
+        // div pour sans accent
+    },
+    {
+        id: 77,
+        title: 'rouleaux papier hygiènique',
+        category: 'hygienes'
+        // div "pq" et sans accent
+    },
+    {
+        id: 78,
+        title: 'rouleaux papier hygiènique maxi',
+        category: 'hygienes'
+        // div sans accent
+    },
+    {
+        id: 79,
+        title: 'rouleaux torck',
+        category: 'hygienes'
+    },
+    {
+        id: 80,
+        title: 'spray sanitaire multi-surface',
+        category: 'hygienes'
+        // div pour "spray sanitaire"
+    },
+    {
+        id: 81,
+        title: 'gel wc',
+        category: 'hygienes'
+    },
+    {
+        id: 82,
+        title: 'savon',
+        category: 'hygienes'
+        // div pour titre entier
+    },
+    {
+        id: 83,
+        title: 'écran urinoir',
+        category: 'hygienes'
+        // div sans accent
+    },
+    {
+        id: 84,
+        title: 'lavette microfibre',
+        category: 'hygienes'
+        // div pour "lavette"
+    },
+    {
+        id: 85,
+        title: 'lavette ajourée',
+        category: 'hygienes'
+    },
+    {
+        id: 86,
+        title: 'petit sacs poubelles',
+        category: 'hygienes'
+        // div singulier
+    },
+    {
+        id: 87,
+        title: 'nettoyant vitre',
+        category: 'hygienes'
+    },
+    {
+        id: 88,
+        title: 'spray vitre',
+        category: 'hygienes'
+    },
+    {
+        id: 89,
+        title: 'balai français',
+        category: 'hygienes'
+    },
+    {
+        id: 90,
+        title: 'éponge magique',
+        category: 'hygienes'
+        // div pluriel et sans accent
+    },
+    {
+        id: 91,
+        title: 'lave verres',
+        category: 'hygienes'
+    },
+    {
+        id: 92,
+        title: 'lingettes rince-doigts',
+        category: 'hygienes'
+        // div pour "rince-doigts"
+    }
 ];
 
 
