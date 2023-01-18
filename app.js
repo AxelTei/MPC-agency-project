@@ -537,7 +537,106 @@ let products = [
         title: 'lingettes rince-doigts',
         category: 'hygienes'
         // div pour "rince-doigts"
-    }
+    },
+    {
+        id: 93,
+        title: 'gobelet à café carton',
+        category: 'aEmporter'
+        // div "gobelet à café"
+    },
+    {
+        id: 94,
+        title: 'gobelets',
+        category: 'aEmporter'
+        // div au singulier
+    },
+    {
+        id: 95,
+        title: 'pot à sauce',
+        category: 'aEmporter'
+    },
+    {
+        id: 96,
+        title: 'couvercle',
+        category: 'aEmporter'
+    },
+    {
+        id: 97,
+        title: 'kits couverts',
+        category: 'aEmporter'
+    },
+    {
+        id: 98,
+        title: 'pot dessert',
+        category: 'aEmporter'
+        // div "pot de dessert"
+    },
+    {
+        id: 99,
+        title: 'pot à salade',
+        category: 'aEmporter'
+        // div titre entier
+    },
+    {
+        id: 100,
+        title: 'couvercle pot à salade',
+        category: 'aEmporter'
+    },
+    {
+        id: 101,
+        title: 'assiette pulpe de canne',
+        category: 'aEmporter'
+    },
+    {
+        id: 102,
+        title: 'boite américaine',
+        category: 'aEmporter'
+        // div pluriel et "boîtes américaines" et sans accent
+    },
+    {
+        id: 103,
+        title: 'gobelets à frites',
+        category: 'aEmporter'
+    },
+    {
+        id: 104,
+        title: 'plateaux 5 compartiments',
+        category: 'aEmporter'
+        // div "plateaux"
+    },
+    {
+        id: 105,
+        title: 'couvercle plateaux 5 compartiments',
+        category: 'aEmporter'
+        // div "couvercle plateaux"
+    },
+    {
+        id: 106,
+        title: 'sac kraft classique',
+        category: 'aEmporter'
+    },
+    {
+        id: 107,
+        title: 'sac kraft traiteur',
+        category: 'aEmporter'
+    },
+    {
+        id: 108,
+        title: 'sac à pains',
+        category: 'aEmporter'
+    },
+    {
+        id: 109,
+        title: 'boite fond et couvercle',
+        category: 'aEmporter'
+        // div "boîte fond et couvercle"
+    },
+    {
+        id: 110,
+        title: 'serviette snack blanche',
+        category: 'aEmporter'
+        //div "serviette snack"
+    },
 ];
 
 
@@ -579,6 +678,10 @@ email.addEventListener('input', (event) => {
     button.style.display = '';
   }
 })
+
+// Card Product - Link Button Functions
+
+
 
 // Blacklist Functions à faire mais il est preferable de passer par des modules node.js ou react pour une veritable securité
 
