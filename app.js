@@ -237,7 +237,6 @@ let products = [
         id: 33,
         title: 'airlaid noir tête à tête',
         category: 'setDeTables'
-        // faire div pour sans accent et set de table airlaid noir (sans tete a tete)
     },
     {
         id: 126,
@@ -323,19 +322,36 @@ let products = [
         id: 39,
         title: 'tablier jetable',
         category: 'hygienes'
-        // div pour le titre entier
+    },
+    {
+        id: 137,
+        title: 'tablier jetable pebd blanc',
+        category: 'hygienes'
     },
     {
         id: 40,
         title: 'bobine gaufrée',
         category: 'hygienes'
-        // div pour sans accent et titre entier
+    },
+    {
+        id: 138,
+        title: 'bobine gaufree',
+        category: 'hygienes'
+    },
+    {
+        id: 139,
+        title: 'bobine gaufrée 450frt',
+        category: 'hygienes'
     },
     {
         id: 41,
         title: 'bobine lisse',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 140,
+        title: 'bobine lisse 450frt',
+        category: 'hygienes'
     },
     {
         id: 42,
@@ -346,7 +362,16 @@ let products = [
         id: 43,
         title: 'éponge',
         category: 'hygienes'
-        // div pour sans accent et titre entier 
+    },
+    {
+        id: 141,
+        title: 'eponge',
+        category: 'hygienes'
+    },
+    {
+        id: 142,
+        title: 'éponge abrasif vert',
+        category: 'hygienes'
     },
     {
         id: 44,
@@ -357,31 +382,71 @@ let products = [
         id: 45,
         title: 'rouleaux film alimentaire',
         category: 'hygienes'
-        // div pour titre entier et au singulier et div rouleau tout court
+    },
+    {
+        id: 143,
+        title: 'rouleau',
+        category: 'hygienes'
+    },
+    {
+        id: 144,
+        title: 'rouleaux',
+        category: 'hygienes'
+    },
+    {
+        id: 145,
+        title: 'rouleaux film alimentaire professionnels',
+        category: 'hygienes'
     },
     {
         id: 46,
         title: 'rouleaux film aluminium',
         category: 'hygienes'
-        // div pour au singulier et titre entier
+    },
+    {
+        id: 146,
+        title: 'rouleaux film aluminium professionnels',
+        category: 'hygienes'
     },
     {
         id: 47,
         title: 'sac poubelles',
         category: 'hygienes'
-        // div singulier et pluriel
+    },
+    {
+        id: 147,
+        title: 'sac poubelle',
+        category: 'hygienes'
+    },
+    {
+        id: 148,
+        title: 'sacs poubelles',
+        category: 'hygienes'
     },
     {
         id: 48,
         title: 'plonge manuelle vaisselle',
         category: 'hygienes'
-        // div pour "plonge vaisselle"
+    },
+    {
+        id: 149,
+        title: 'plonge vaisselle',
+        category: 'hygienes'
     },
     {
         id: 49,
         title: 'décapant four acide',
         category: 'hygienes'
-        // div pour "décapant" et "décapant four"
+    },
+    {
+        id: 150,
+        title: 'décapant',
+        category: 'hygienes'
+    },
+    {
+        id: 151,
+        title: 'décapant four',
+        category: 'hygienes'
     },
     {
         id: 50,
