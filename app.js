@@ -837,13 +837,21 @@ let products = [
         id: 93,
         title: 'gobelet à café carton',
         category: 'aEmporter'
-        // div "gobelet à café"
+    },
+    {
+        id: 186,
+        title: 'gobelet à café',
+        category: 'aEmporter'
     },
     {
         id: 94,
         title: 'gobelets',
         category: 'aEmporter'
-        // div au singulier
+    },
+    {
+        id: 187,
+        title: 'gobelet',
+        category: 'aEmporter'
     },
     {
         id: 95,
@@ -864,13 +872,21 @@ let products = [
         id: 98,
         title: 'pot dessert',
         category: 'aEmporter'
-        // div "pot de dessert"
+    },
+    {
+        id: 188,
+        title: 'pot de dessert',
+        category: 'aEmporter'
     },
     {
         id: 99,
         title: 'pot à salade',
         category: 'aEmporter'
-        // div titre entier
+    },
+    {
+        id: 189,
+        title: 'pot à salade kraft',
+        category: 'aEmporter'
     },
     {
         id: 100,
@@ -886,7 +902,21 @@ let products = [
         id: 102,
         title: 'boite américaine',
         category: 'aEmporter'
-        // div pluriel et "boîtes américaines" et sans accent
+    },
+    {
+        id: 190,
+        title: 'boites américaines',
+        category: 'aEmporter'
+    },
+    {
+        id: 191,
+        title: 'boite americaine',
+        category: 'aEmporter'
+    },
+    {
+        id: 192,
+        title: 'boîtes américaines',
+        category: 'aEmporter'
     },
     {
         id: 103,
@@ -897,13 +927,21 @@ let products = [
         id: 104,
         title: 'plateaux 5 compartiments',
         category: 'aEmporter'
-        // div "plateaux"
+    },
+    {
+        id: 193,
+        title: 'plateaux',
+        category: 'aEmporter'
     },
     {
         id: 105,
         title: 'couvercle plateaux 5 compartiments',
         category: 'aEmporter'
-        // div "couvercle plateaux"
+    },
+    {
+        id: 194,
+        title: 'couvercle plateaux',
+        category: 'aEmporter'
     },
     {
         id: 106,
@@ -924,13 +962,21 @@ let products = [
         id: 109,
         title: 'boite fond et couvercle',
         category: 'aEmporter'
-        // div "boîte fond et couvercle"
+    },
+    {
+        id: 195,
+        title: 'boîte fond et couvercle',
+        category: 'aEmporter'
     },
     {
         id: 110,
         title: 'serviette snack blanche',
         category: 'aEmporter'
-        //div "serviette snack"
+    },
+    {
+        id: 196,
+        title: 'serviette snack',
+        category: 'aEmporter'
     },
     {
         id: 111,
