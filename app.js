@@ -1082,7 +1082,7 @@ email.addEventListener('input', (event) => {
 
 // Card Product - Link Button Functions
 
-
+//document.getElementById('floatingTextarea').setAttribute('value', myvalue);
 
 // Blacklist Functions à faire mais il est preferable de passer par des modules node.js ou react pour une veritable securité
 
