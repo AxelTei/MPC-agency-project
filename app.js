@@ -452,37 +452,76 @@ let products = [
         id: 50,
         title: 'dyacil',
         category: 'hygienes'
-        // div pour "détergent" et "désinfectant cuisine" et titre entier sans parenthese
+    },
+    {
+        id: 152,
+        title: 'détergent',
+        category: 'hygienes'
+    },
+    {
+        id: 153,
+        title: 'désinfectant cuisine',
+        category: 'hygienes'
+    },
+    {
+        id: 154,
+        title: 'dyacil détergent désinfectant cuisine',
+        category: 'hygienes'
     },
     {
         id: 51,
         title: 'chlormouss',
         category: 'hygienes'
-        // div pour "blanchisseur cuisine"
+    },
+    {
+        id: 155,
+        title: 'blanchisseur cuisine',
+        category: 'hygienes'
     },
     {
         id: 52,
         title: 'duosol',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 156,
+        title: 'duosol 2d',
+        category: 'hygienes'
     },
     {
         id: 53,
         title: 'déboucheur traitement des canalisations',
         category: 'hygienes'
-        // div pour "déboucheur" et "deboucheur"
+    },
+    {
+        id: 157,
+        title: 'déboucheur',
+        category: 'hygienes'
+    },
+    {
+        id: 158,
+        title: 'deboucheur',
+        category: 'hygienes'
     },
     {
         id: 54,
         title: 'alcool ménager',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 159,
+        title: 'alcool ménager citron',
+        category: 'hygienes'
     },
     {
         id: 55,
         title: 'pro tartre détartrant machine',
         category: 'hygienes'
-        // div pour détartrant machine
+    },
+    {
+        id: 160,
+        title: 'détartrant machine',
+        category: 'hygienes'
     },
     {
         id: 56,
@@ -498,19 +537,31 @@ let products = [
         id: 58,
         title: 'legno',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 161,
+        title: 'legno spécial parquet',
+        category: 'hygienes'
     },
     {
         id: 59,
         title: 'liquide lavage machine automatique',
         category: 'hygienes'
-        // div pour "liquide lavage"
+    },
+    {
+        id: 162,
+        title: 'liquide lavage',
+        category: 'hygienes'
     },
     {
         id: 60,
         title: 'spray nettoyant inox',
         category: 'hygienes'
-        // div pour "spray nettoyant"
+    },
+    {
+        id: 163,
+        title: 'spray nettoyant',
+        category: 'hygienes'
     },
     {
         id: 61,
@@ -521,7 +572,16 @@ let products = [
         id: 62,
         title: 'spray dégraissant',
         category: 'hygienes'
-        // div pour "spray degraissant" et "spray détergent"
+    },
+    {
+        id: 164,
+        title: 'spray degraissant',
+        category: 'hygienes'
+    },
+    {
+        id: 165,
+        title: 'spray détergent',
+        category: 'hygienes'
     },
     {
         id: 63,
@@ -532,13 +592,21 @@ let products = [
         id: 64,
         title: 'pastille chlore',
         category: 'hygienes'
-        // div pour "chlore"
+    },
+    {
+        id: 166,
+        title: 'chlore',
+        category: 'hygienes'
     },
     {
         id: 65,
         title: 'gants nitrile',
         category: 'hygienes'
-        // div pour "gants"
+    },
+    {
+        id: 167,
+        title: 'gants',
+        category: 'hygienes'
     },
     {
         id: 66,
@@ -554,7 +622,16 @@ let products = [
         id: 68,
         title: 'dégraissant multi-surfaces',
         category: 'hygienes'
-        // div pour "dégraissant" et "degraissant"
+    },
+    {
+        id: 168,
+        title: 'dégraissant',
+        category: 'hygienes'
+    },
+    {
+        id: 169,
+        title: 'degraissant',
+        category: 'hygienes'
     },
     {
         id: 69,
@@ -570,13 +647,21 @@ let products = [
         id: 71,
         title: 'liquide rinçage machine',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 170,
+        title: 'liquide rinçage machine professionnelle',
+        category: 'hygienes'
     },
     {
         id: 72,
         title: 'raclette avec manche aluminium',
         category: 'hygienes'
-        // div pour raclette
+    },
+    {
+        id: 171,
+        title: 'raclette',
+        category: 'hygienes'
     },
     {
         id: 73,
@@ -592,25 +677,51 @@ let products = [
         id: 75,
         title: 'essuie main',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 172,
+        title: 'essuie main enchevêtré',
+        category: 'hygienes'
+    },
+    {
+        id: 173,
+        title: 'essuie main enchevetre',
+        category: 'hygienes'
     },
     {
         id: 76,
         title: 'papier hygiènique',
         category: 'hygienes'
-        // div pour sans accent
+    },
+    {
+        id: 174,
+        title: 'papier hygienique',
+        category: 'hygienes'
     },
     {
         id: 77,
         title: 'rouleaux papier hygiènique',
         category: 'hygienes'
-        // div "pq" et sans accent
+    },
+    {
+        id: 175,
+        title: 'pq',
+        category: 'hygienes'
+    },
+    {
+        id: 176,
+        title: 'rouleaux papier hygienique',
+        category: 'hygienes'
     },
     {
         id: 78,
         title: 'rouleaux papier hygiènique maxi',
         category: 'hygienes'
-        // div sans accent
+    },
+    {
+        id: 177,
+        title: 'rouleaux papier hygienique maxi',
+        category: 'hygienes'
     },
     {
         id: 79,
@@ -621,7 +732,11 @@ let products = [
         id: 80,
         title: 'spray sanitaire multi-surface',
         category: 'hygienes'
-        // div pour "spray sanitaire"
+    },
+    {
+        id: 178,
+        title: 'spray sanitaire',
+        category: 'hygienes'
     },
     {
         id: 81,
@@ -632,19 +747,31 @@ let products = [
         id: 82,
         title: 'savon',
         category: 'hygienes'
-        // div pour titre entier
+    },
+    {
+        id: 179,
+        title: 'savon main',
+        category: 'hygienes'
     },
     {
         id: 83,
         title: 'écran urinoir',
         category: 'hygienes'
-        // div sans accent
+    },
+    {
+        id: 180,
+        title: 'ecran urinoir',
+        category: 'hygienes'
     },
     {
         id: 84,
         title: 'lavette microfibre',
         category: 'hygienes'
-        // div pour "lavette"
+    },
+    {
+        id: 181,
+        title: 'lavette',
+        category: 'hygienes'
     },
     {
         id: 85,
@@ -655,7 +782,11 @@ let products = [
         id: 86,
         title: 'petit sacs poubelles',
         category: 'hygienes'
-        // div singulier
+    },
+    {
+        id: 182,
+        title: 'petit sac poubelle',
+        category: 'hygienes'
     },
     {
         id: 87,
@@ -676,7 +807,16 @@ let products = [
         id: 90,
         title: 'éponge magique',
         category: 'hygienes'
-        // div pluriel et sans accent
+    },
+    {
+        id: 183,
+        title: 'éponges magiques',
+        category: 'hygienes'
+    },
+    {
+        id: 184,
+        title: 'eponge magique',
+        category: 'hygienes'
     },
     {
         id: 91,
@@ -687,7 +827,11 @@ let products = [
         id: 92,
         title: 'lingettes rince-doigts',
         category: 'hygienes'
-        // div pour "rince-doigts"
+    },
+    {
+        id: 185,
+        title: 'rince-doigts',
+        category: 'hygienes'
     },
     {
         id: 93,
