@@ -982,7 +982,16 @@ let products = [
         id: 111,
         title: 'fontaine scintillante sparkler',
         category: 'divers'
-        // div pour "sparkler" et " fontaine scintillante"
+    },
+    {
+        id: 197,
+        title: 'sparkler',
+        category: 'divers'
+    },
+    {
+        id: 198,
+        title: 'fontaine scintillante',
+        category: 'divers'
     },
     {
         id: 112,
@@ -998,19 +1007,36 @@ let products = [
         id: 114,
         title: 'pailles biodégradables',
         category: 'divers'
-        // div "pailles"
+    },
+    {
+        id: 199,
+        title: 'pailles',
+        category: 'divers'
     },
     {
         id: 115,
         title: 'pailles cocktails',
         category: 'divers'
-        // div titre entier
+    },
+    {
+        id: 200,
+        title: 'pailles cocktails biodégradables',
+        category: 'divers'
     },
     {
         id: 116,
         title: 'bloc prise de commande',
         category: 'divers'
-        // div "tripli" et "dupli"
+    },
+    {
+        id: 201,
+        title: 'tripli',
+        category: 'divers'
+    },
+    {
+        id: 202,
+        title: 'dupli',
+        category: 'divers'
     }
 ];
 
