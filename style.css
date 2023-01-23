@@ -39,6 +39,10 @@
 
 /* Home Section */
 
+.home-carousel {
+    width: 100vw;
+}
+
 @media screen and (max-width: 768px) {
     .home-carousel {
         height: 400px;
@@ -49,6 +53,11 @@
     .home-carousel {
         height: 800px;
     }
+}
+
+.comment-section {
+    background: url('./images-data/nice.jpg') no-repeat center;
+    background-size: cover;
 }
 
 /* Footer Section */
