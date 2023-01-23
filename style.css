@@ -2,6 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+    font-family: "Lobster";
+    src: url("Lobster-Regular.ttf") format("opentype"), url("lobster-regular.woff") format("woff"), url("lobster-regular.woff2") format("woff2");
+}
+
 /* Navbar Section */
 
 .background-navbar {
@@ -10,6 +15,14 @@
 
 .nav-image-logo {
     border-radius: 33%;
+}
+
+.nav-link {
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+}
+
+.dropdown-item {
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
 }
 
 .nav-title {
@@ -60,6 +73,10 @@
     background-size: cover;
 }
 
+.comment-title {
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
+}
+
 /* Footer Section */
 
 .footer {
@@ -98,6 +115,7 @@
 
 .footer-title {
     font-weight: 600;
+    font-family: "Lobster", Arial, Helvetica, sans-serif;
 }
 
 /* Image Section */
