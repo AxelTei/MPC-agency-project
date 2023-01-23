@@ -1,721 +1,773 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="pinterest" content="nopin" />
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>MPC agency | Hygiènes</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="pinterest" content="nopin" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>MPC agency | Hygiènes</title>
 </head>
+
 <body class="body">
 
   <!--Navbar Section-->
 
-    <nav class="navbar navbar-expand-lg background-navbar navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">
-            <img src="images-data\logo-MPC-overlay.png" alt="logo MPC" class="nav-image nav-image-logo" height="130">
-            <div class="nav-logo"><img src="images-data\logo-MPC.jpg" alt="title MPC" class="nav-title" width="400" height="130"></div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link nav-size" href="home.html">Accueil</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-size active" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Catalogue
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="catalogue.html">Sommaire</a></li>
-                  <li><a class="dropdown-item" href="serviettes.html">Serviettes</li>
-                  <li><a class="dropdown-item" href="setDeTables.html">Set de table</a></li>
-                  <li><a class="dropdown-item" href="hygienes.html">Hygiènes</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="aEmporter.html"><span style="text-transform: capitalize;">à</span> emporter</a></li>
-                  <li><a class="dropdown-item" href="divers.html">Divers</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-size" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <div class="container-fluid text-center">
-              <a href="home.html" class="navbar-brand">
-                <img src="images-data\logo-MPC.jpg" alt="title MPC" width="400" height="130" class="nav-image nav-title">
-              </a>
-            </div>
-            <form class="d-flex px-2 w-50" role="search">
-              <input class="form-control me-3 pe-5" type="search" placeholder="Rechercher" aria-label="Search" id="inputSearch">
-              <button class="btn btn-outline nav-loupe" id="searchProduct" type="submit"><i class="bi bi-search"></i></button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-    <!-- Breadcrumb -->
-
-    <nav aria-label="breadcrumb" class="p-5" style="background-color: white; height: 16px;">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="home.html" style="color: black;">Accueil</a></li>
-          <li class="breadcrumb-item"><a href="catalogue.html" style="color: black;">Sommaire</a></li>
-          <li class="breadcrumb-item active" aria-current="page" style="color: black;">Hygiènes</li>
-        </ol>
-    </nav>
-
-    <!-- Hero Section -->
-
-    <div class="container-fluid mb-5">
-        <div class="row text-center">
-    
-          <div class="col-sm-4 mt-5">
-            <a href="#hygiene-de-cuisine" style="color: black; text-decoration: none;">
-              <img src="images-data\sponge-g0cee36342_640.jpg" alt="Image par Tomek de Pixabay éponge verte" class="img-fluid img-border-profil" width="250" height="250">
-              <h3 class="img-title-profil mt-3">Hygiène de Cuisine</h3>
-            </a>
-          </div>
-    
-          <div class="col-sm-4">
-            <a href="#hygiene-sanitaire" style="color: black; text-decoration: none;">
-              <img src="images-data\MAXI-JUMBO.jpg" alt="maxi jumbo" class="img-fluid img-border-profil" width="250" height="250">
-              <h3 class="img-title-profil mt-3">Hygiène Sanitaire</h3>
-            </a>
-          </div>
-    
-          <div class="col-sm-4">
-            <a href="#hygiene-de-bar-salle" style="color: black; text-decoration: none;">
-              <img src="images-data\SPRAY-MULTISURFACE.jpg" alt="spray multi-surface" class="img-fluid img-border-profil" width="250" height="250">
-              <h3 class="img-title-profil">Hygiène de Bar/Salle</h3>
-            </a>
-          </div>
-    
-        </div>
-    </div>
-
-    <div class="container-fluid mb-5">
-        <div class="row">
-
-          <div class="col-sm-12 mt-5 text-center">
-            <h3 class="img-section-title" id="hygiene-de-cuisine">Hygiène de Cuisine</h3>
-          </div>
-    
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="39">
-            <div id="137"></div>
-            <img src="images-data\images-produits\TABLIER-JETABLE-BLANC.jfif" class="card-img-top" alt="tablier-jetable">
-            <div class="card-body">
-              <h5 class="card-title">Tablier Jetable PEBD Blanc</h5>
-              <p class="card-text">Taille 1x200</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="40">
-            <div id="138"></div>
-            <div id="139"></div>
-            <img src="images-data\images-produits\BOBINE-450F.jpeg" class="card-img-top" alt="bobine-450F" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Bobine Gaufrée 450FRT</h5>
-              <p class="card-text">Taille 1x6</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="41">
-            <div id="140"></div>
-            <img src="images-data\images-produits\BOBINE-450F-LISSE.jpeg" class="card-img-top" alt="bobine-lisse-450F" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Bobine Lisse 450FRT</h5>
-              <p class="card-text">Taille 1x6</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="42">
-            <img src="images-data\images-produits\metal-sponge-gd72ef0a69_640.jpg" class="card-img-top" alt="pailles-de-fer Image par Petra Göschel de Pixabay" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Pailles de Fer</h5>
-              <p class="card-text">Taille 1x10</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="43">
-            <div id="141"></div>
-            <div id="142"></div>
-            <img src="images-data\images-produits\EPONGE-VERT.jpeg" class="card-img-top" alt="éponge-verte" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Eponge Abrasif Vert</h5>
-              <p class="card-text">Taille 1x10</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="44">
-            <img src="images-data\images-produits\FRANGE-ESPAGNOL.jpeg" class="card-img-top" alt="frange-espagnol" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Frange Espagnol</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="45">
-            <div id="143"></div>
-            <div id="144"></div>
-            <div id="145"></div>
-            <img src="images-data\images-produits\film-alimentaire--cbox--30-cm-x-300-metres--1-rlx-3946323546.jpg" class="card-img-top" alt="film-alimentaire" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Rouleaux <br>Film Alimentaire Professionnels</h5>
-              <p class="card-text">Taille 33x45</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="46">
-            <div id="146"></div>
-            <img src="images-data\images-produits\rlx-aluminium-boite-distributrice-200-m-x-45-cm-2192318298.jpg" class="card-img-top" alt="film-aluminium" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Rouleaux <br>Film Aluminium Professionnels</h5>
-              <p class="card-text">Taille 33x45</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="47">
-            <div id="147"></div>
-            <div id="148"></div>
-            <img src="images-data\images-produits\SAC-POUBEL.png" class="card-img-top" alt="sac-poubelle">
-            <div class="card-body">
-              <h5 class="card-title">Sac Poubelles</h5>
-              <p class="card-text">Taille 110L /130L /160L /240L /340L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="48">
-            <div id="149"></div>
-            <img src="images-data\images-produits\PLONGE-AVANTAGE.png" class="card-img-top" alt="plonge-manuel-vaiselle">
-            <div class="card-body">
-              <h5 class="card-title">Plonge Manuelle Vaisselle</h5>
-              <p class="card-text">Taille 5L /20L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="49">
-            <div id="150"></div>
-            <div id="151"></div>
-            <img src="images-data\images-produits\DECAPANT-FOUR-ACIDE-5L.jfif" class="card-img-top" alt="decapant-four-acide">
-            <div class="card-body">
-              <h5 class="card-title">Décapant Four Acide</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="50">
-            <div id="152"></div>
-            <div id="153"></div>
-            <div id="154"></div>
-            <img src="images-data\images-produits\DYACIL_MAXI_PAE_5L.jpg" class="card-img-top" alt="dyacil-5L">
-            <div class="card-body">
-              <h5 class="card-title">DYACIL Détergent Désinfectant Cuisine <br>(En centrale)</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="51">
-            <div id="155"></div>
-            <img src="images-data\images-produits\CHLORMOUSS-5L.jpg" class="card-img-top" alt="chlormouss-5L">
-            <div class="card-body">
-              <h5 class="card-title">Chlormouss Détergent/Blanchisseur Cuisine</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="52">
-            <div id="156"></div>
-            <img src="images-data\images-produits\DUOSOL-2D-PAMPL.jfif" class="card-img-top" alt="duosol-2D">
-            <div class="card-body">
-              <h5 class="card-title">DUOSOL 2D</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="53">
-            <div id="157"></div>
-            <div id="158"></div>
-            <img src="images-data\images-produits\deboucheur.jpg" class="card-img-top" alt="deboucheur-canalisation">
-            <div class="card-body">
-              <h5 class="card-title">Déboucheur Traitement des Canalisations</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="54">
-            <div id="159"></div>
-            <img src="images-data\images-produits\ALCOOL-MENAGER-1L.jfif" class="card-img-top" alt="alcool-ménager">
-            <div class="card-body">
-              <h5 class="card-title">Alcool Ménager Citron</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="55">
-            <div id="160"></div>
-            <img src="images-data\images-produits\PROTARTRE-5L.jpg" class="card-img-top" alt="protartre">
-            <div class="card-body">
-              <h5 class="card-title">Pro Tartre Détartrant Machine</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="56">
-            <img src="images-data\images-produits\ASSOUPLISSANT-5L.jpg" class="card-img-top" alt="assouplissant">
-            <div class="card-body">
-              <h5 class="card-title">Assouplissant</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="57">
-            <img src="images-data\images-produits\JAVEL-5L.jpeg" class="card-img-top" alt="javel" height="300">
-            <div class="card-body">
-              <h5 class="card-title">JAVEL</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="58">
-            <div id="161"></div>
-            <img src="images-data\images-produits\legno-ok.png" class="card-img-top" alt="legno" height="300">
-            <div class="card-body">
-              <h5 class="card-title">LEGNO Spécial Parquet</h5>
-              <p class="card-text">Taille 3L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="59">
-            <div id="162"></div>
-            <img src="images-data\images-produits\LIQUIDE-LAVAGE-MACHINE-TT-EAUX-5L.jfif" class="card-img-top" alt="liquide-lavage-machine-5L" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Liquide Lavage Machine Automatique</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
-            <img src="images-data\images-produits\liquide-senet.png" class="card-img-top" alt="liquide-lavage-machine-20L" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Liquide Lavage Machine Automatique</h5>
-              <p class="card-text">Taille 20L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="60">
-            <div id="163"></div>
-            <img src="images-data\images-produits\SPRAY-NETTOYANT-INOX.png" class="card-img-top" alt="spray-nettoyant-inox" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Spray Nettoyant Inox</h5>
-              <p class="card-text">Taille 750ML</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="61">
-            <img src="images-data\images-produits\SPRAY-NETTOYANT-FOUR.jfif" class="card-img-top" alt="spray-four-nettoyant" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Spray Nettoyant <br>Four/Friteuse/Hotte</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="62">
-            <div id="164"></div>
-            <div id="165"></div>
-            <img src="images-data\images-produits\spray-degraissant-detergent.jpg" class="card-img-top" alt="spray-dégraissant-détergent" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Spray Dégraissant/Détergent</h5>
-              <p class="card-text">Taille 750ML</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="63">
-            <img src="images-data\images-produits\DEGRAISSANT-NETTOYANT-PLANCHA-1L.png" class="card-img-top" alt="nettoyant-plancha" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Nettoyant Plancha</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="64">
-            <div id="166"></div>
-            <img src="images-data\images-produits\PASTILLE-CHRLOREE.jfif" class="card-img-top" alt="pastille-chlore" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Pastille Chlore 150P</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="65">
-            <div id="167"></div>
-            <img src="images-data\images-produits\gants-nitrile-ambidextres-noirs.jpg" class="card-img-top" alt="gants-nitrile" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Gants Nitrile</h5>
-              <p class="card-text">Taille S/M/L/XL</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="66">
-            <img src="images-data\images-produits\GANT-LATEX-SMLXL.jfif" class="card-img-top" alt="gants-latex" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Gants Latex</h5>
-              <p class="card-text">Taille S/M/L/XL</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="67">
-            <img src="images-data\images-produits\VIGNAIGRE-ALCOOL-BLANC.webp" class="card-img-top" alt="vianigre-alcool-blanc" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Vinaigre Alcool Blanc</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="68">
-            <div id="168"></div>
-            <div id="169"></div>
-            <img src="images-data\images-produits\dégraissant-multi-surfaces-5L.jpg" class="card-img-top" alt="dégraissant-multi-surface" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Dégraissant <br>Multi-Surfaces</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="69">
-            <img src="images-data\images-produits\SEL-ADOUCISSEUR.jfif" class="card-img-top" alt="sel-adoucisseur" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Sel pour Adoucisseur</h5>
-              <p class="card-text">Taille 25Kg</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="70">
-            <img src="images-data\images-produits\PASTILLE-LAVE-VAISSELLE-ORLAV-5EN1.png" class="card-img-top" alt="pastille-lave-vaisselle" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Pastille Lave-vaisselle 5en1 ORLAV 150P</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="71">
-            <div id="170"></div>
-            <img src="images-data\images-produits\LIQUIDE-RINCAGE-ET-SECHAGE-5L.jfif" class="card-img-top" alt="liquide-rinçage-machine-pro" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Liquide Rinçage Machine Professionnelle</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="72">
-            <div id="171"></div>
-            <img src="images-data\images-produits\raclette-sol-bleu-55-cm-livree-avec-manche-telescopique.jpg" class="card-img-top" alt="raclette-plus-manche-aluminium" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Raclette avec Manche Aluminium</h5>
-              <a href="contact.html" class="btn btn-success mt-3">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="col-sm-12 mt-5 text-center">
-            <h3 class="img-section-title" id="hygiene-sanitaire">Hygiène Sanitaire</h3>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="73">
-            <img src="images-data\MAXI-JUMBO.jpg" class="card-img-top" alt="maxi-jumbo" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Maxi Jumbo</h5>
-              <p class="card-text">Taille 1x6</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="74">
-            <img src="images-data\images-produits\MINI-JUMBO1.jpg" class="card-img-top" alt="mini-jumbo" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Mini Jumbo</h5>
-              <p class="card-text">Taille 1x12</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="75">
-            <div id="172"></div>
-            <div id="173"></div>
-            <img src="images-data\images-produits\ESSUIE-MAINS-ENCHEVETRE.jfif" class="card-img-top" alt="essuie-main-enchevetre" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Essuie Main Enchevêtré</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="76">
-            <div id="174"></div>
-            <img src="images-data\images-produits\papier-hygienique-feuille-a-feuille.jpg" class="card-img-top" alt="papier-hygienique-feuille-a-feuille" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Papier Hygiènique feuille à feuille</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="77">
-            <div id="175"></div>
-            <div id="176"></div>
-            <img src="images-data\images-produits\pq-96.webp" class="card-img-top" alt="papier-hygienique-toilette" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Rouleaux Papier Hygiènique Toilette</h5>
-              <p class="card-text">Taille 1x96 500F</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="78">
-            <div id="177"></div>
-            <img src="images-data\images-produits\PQ-MAXI40.jpeg" class="card-img-top" alt="papier-hygienique-maxi" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Rouleaux Papier Hygiènique Maxi</h5>
-              <p class="card-text">Taille 1x40</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="79">
-            <img src="images-data\images-produits\TORK-T9.jpg" class="card-img-top" alt="rlx-torck-T9" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Rouleaux Torck T8/T9</h5>
-              <p class="card-text">Taille T8 1x6</p>
-              <p class="card-text">Taille T9 1x12</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="80">
-            <div id="178"></div>
-            <img src="images-data\images-produits\SPRAY-MULTISURFACE.jpg" class="card-img-top" alt="spray-sanitaire-multi" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Spray Sanitaire Multi-Surface</h5>
-              <p class="card-text">Taille 750ML</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="81">
-            <img src="images-data\images-produits\GEL-WC.jfif" class="card-img-top" alt="gel-wc" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Gel WC</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="82">
-            <div id="179"></div>
-            <img src="images-data\images-produits\crème-lavante-5L.jpg" class="card-img-top" alt="savon-main" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Savon Main</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="83">
-            <div id="180"></div>
-            <img src="images-data\images-produits\ecran-urinoir2.jpg" class="card-img-top" alt="ecran-urinoir" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Ecran Urinoir</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="col-sm-12 mt-5 text-center">
-            <h3 class="img-section-title" id="hygiene-de-bar-salle">Hygiène de Bar/Salle</h3>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="84">
-            <div id="181"></div>
-            <img src="images-data\images-produits\LAVEMICROFIBRE-ROSE.jfif" class="card-img-top" alt="lavette-microfibre" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Lavette Microfibre</h5>
-              <p class="card-text">Couleur: Bleu/Vert/Rose/Jaune</p>
-              <p class="card-text">Taille 1x10</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="85">
-            <img src="images-data\images-produits\lavette-ajouree-non-tissee-lot-de-25.jpg" class="card-img-top" alt="lavette-ajourée" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Lavette Ajourée</h5>
-              <p class="card-text">Taille 50x30</p>
-              <p class="card-text">Pack 1x25 unités</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
-            <img src="images-data\images-produits\FRANGE-ESPAGNOL.jpeg" class="card-img-top" alt="frange-espagnol" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Frange Espagnol</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="86">
-            <div id="182"></div>
-            <img src="images-data\images-produits\SAC-POUBELLE.jpeg" class="card-img-top" alt="sac-poubelle" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Sacs Poubelles</h5>
-              <p class="card-text">Taille 30L /50L /110L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="87">
-            <img src="images-data\images-produits\NETTOYANT-VITRE 5L.jfif" class="card-img-top" alt="nettoyant-vitre" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Nettoyant Vitre</h5>
-              <p class="card-text">Taille 5L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="88">
-            <img src="images-data\images-produits\SPRAY-VITRES.jfif" class="card-img-top" alt="spray-vitre" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Spray Vitre</h5>
-              <p class="card-text">Taille 750ML</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
-            <img src="images-data\images-produits\gants-nitrile-ambidextres-noirs.jpg" class="card-img-top" alt="gants-nitrile" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Gants Nitrile</h5>
-              <p class="card-text">Taille S/M/L/XL</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
-            <img src="images-data\images-produits\GANT-LATEX-SMLXL.jfif" class="card-img-top" alt="gants-latex" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Gants Latex</h5>
-              <p class="card-text">Taille S/M/L/XL</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="89">
-            <img src="images-data\images-produits\balais-français-manche-bois.png" class="card-img-top" alt="balai-français" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Balai Français</h5>
-              <p class="card-text">Manche Bois/Aluminium</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="90">
-            <div id="183"></div>
-            <div id="184"></div>
-            <img src="images-data\images-produits\éponges-magiques.jpg" class="card-img-top" alt="eponges-magiques" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Eponges Magiques</h5>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="91">
-            <img src="images-data\images-produits\LAVE-VERRE-1L.jpg" class="card-img-top" alt="lave-verres" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Lave Verres</h5>
-              <p class="card-text">Taille 1L</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-          <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="92">
-            <div id="185"></div>
-            <img src="images-data\images-produits\rince-doigt-parfum-citron.jpg" class="card-img-top" alt="lave-verres" height="300">
-            <div class="card-body">
-              <h5 class="card-title">Lingettes Rince-Doigts</h5>
-              <p class="card-text">Taille 1x1000</p>
-              <a href="contact.html" class="btn btn-success">Contactez-nous</a>
-            </div>
-          </div>
-
-        </div>
-    </div>
-
-    <!--Footer Section-->
-    
-    <footer class="container-fluid footer mt-5">
-      <div class="row">
-        <div class="col-sm-3 mx-auto text-center footer-main-article">
-          <h5 class="footer-main-title">MPC-AGENCY</h5>
-          <p class="mt-3">adresse de l'agence</p>
-          <p>Entreprise présente dans les alpes-maritimes</p>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Contact</h5>
-          <a href="#" style="color: white;text-decoration: none;">numéro de tel des agents co</a>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Partenaires</h5>
-          <a href="#" style="color: white;text-decoration: none;">Adresse site fournisseur</a>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Liens</h5>
-          <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-facebook"></i></a>
-          <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-twitter"></i></a>
-          <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-instagram"></i></a>
-        </div>
-      </div>
-    </footer>
-
+  <nav class="navbar navbar-expand-lg background-navbar navbar-dark">
     <div class="container-fluid">
-      <div class="row text-center">
-        <button id="myBtn" title="Retour Haut-de-Page" class="btn btn-primary">Haut-de-Page</button>
+      <a class="navbar-brand" href="home.html">
+        <img src="images-data\logo-MPC-overlay.png" alt="logo MPC" class="nav-image nav-image-logo" height="130">
+        <div class="nav-logo"><img src="images-data\logo-MPC.jpg" alt="title MPC" class="nav-title" width="400"
+            height="130"></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-size" href="home.html">Accueil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-size active" aria-current="page" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Catalogue
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="catalogue.html">Sommaire</a></li>
+              <li><a class="dropdown-item" href="serviettes.html">Serviettes</li>
+              <li><a class="dropdown-item" href="setDeTables.html">Set de table</a></li>
+              <li><a class="dropdown-item" href="hygienes.html">Hygiènes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="aEmporter.html"><span style="text-transform: capitalize;">à</span>
+                  emporter</a></li>
+              <li><a class="dropdown-item" href="divers.html">Divers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-size" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-fluid text-center">
+          <a href="home.html" class="navbar-brand">
+            <img src="images-data\logo-MPC.jpg" alt="title MPC" width="400" height="130" class="nav-image nav-title">
+          </a>
+        </div>
+        <form class="d-flex px-2 w-50" role="search">
+          <input class="form-control me-3 pe-5" type="search" placeholder="Rechercher" aria-label="Search"
+            id="inputSearch">
+          <button class="btn btn-outline nav-loupe" id="searchProduct" type="submit"><i
+              class="bi bi-search"></i></button>
+        </form>
       </div>
     </div>
+  </nav>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+  <!-- Breadcrumb -->
+
+  <nav aria-label="breadcrumb" class="p-5" style="background-color: white; height: 16px;">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="home.html" style="color: black;">Accueil</a></li>
+      <li class="breadcrumb-item"><a href="catalogue.html" style="color: black;">Sommaire</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="color: black;">Hygiènes</li>
+    </ol>
+  </nav>
+
+  <!-- Hero Section -->
+
+  <div class="container-fluid mb-5">
+    <div class="row text-center">
+
+      <div class="col-sm-4 mt-5">
+        <a href="#hygiene-de-cuisine" style="color: black; text-decoration: none;">
+          <img src="images-data\sponge-g0cee36342_640.jpg" alt="Image par Tomek de Pixabay éponge verte"
+            class="img-fluid img-border-profil" width="250" height="250">
+          <h3 class="img-title-profil mt-3">Hygiène de Cuisine</h3>
+        </a>
+      </div>
+
+      <div class="col-sm-4">
+        <a href="#hygiene-sanitaire" style="color: black; text-decoration: none;">
+          <img src="images-data\MAXI-JUMBO.jpg" alt="maxi jumbo" class="img-fluid img-border-profil" width="250"
+            height="250">
+          <h3 class="img-title-profil mt-3">Hygiène Sanitaire</h3>
+        </a>
+      </div>
+
+      <div class="col-sm-4">
+        <a href="#hygiene-de-bar-salle" style="color: black; text-decoration: none;">
+          <img src="images-data\SPRAY-MULTISURFACE.jpg" alt="spray multi-surface" class="img-fluid img-border-profil"
+            width="250" height="250">
+          <h3 class="img-title-profil">Hygiène de Bar/Salle</h3>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid mb-5">
+    <div class="row">
+
+      <div class="col-sm-12 mt-5 text-center">
+        <h3 class="img-section-title" id="hygiene-de-cuisine">Hygiène de Cuisine</h3>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="39">
+        <div id="137"></div>
+        <img src="images-data\images-produits\TABLIER-JETABLE-BLANC.jfif" class="card-img-top" alt="tablier-jetable">
+        <div class="card-body">
+          <h5 class="card-title">Tablier Jetable PEBD Blanc</h5>
+          <p class="card-text">Taille 1x200</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="40">
+        <div id="138"></div>
+        <div id="139"></div>
+        <img src="images-data\images-produits\BOBINE-450F.jpeg" class="card-img-top" alt="bobine-450F" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Bobine Gaufrée 450FRT</h5>
+          <p class="card-text">Taille 1x6</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="41">
+        <div id="140"></div>
+        <img src="images-data\images-produits\BOBINE-450F-LISSE.jpeg" class="card-img-top" alt="bobine-lisse-450F"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Bobine Lisse 450FRT</h5>
+          <p class="card-text">Taille 1x6</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="42">
+        <img src="images-data\images-produits\metal-sponge-gd72ef0a69_640.jpg" class="card-img-top"
+          alt="pailles-de-fer Image par Petra Göschel de Pixabay" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Pailles de Fer</h5>
+          <p class="card-text">Taille 1x10</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="43">
+        <div id="141"></div>
+        <div id="142"></div>
+        <img src="images-data\images-produits\EPONGE-VERT.jpeg" class="card-img-top" alt="éponge-verte" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Eponge Abrasif Vert</h5>
+          <p class="card-text">Taille 1x10</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="44">
+        <img src="images-data\images-produits\FRANGE-ESPAGNOL.jpeg" class="card-img-top" alt="frange-espagnol"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Frange Espagnol</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="45">
+        <div id="143"></div>
+        <div id="144"></div>
+        <div id="145"></div>
+        <img src="images-data\images-produits\film-alimentaire--cbox--30-cm-x-300-metres--1-rlx-3946323546.jpg"
+          class="card-img-top" alt="film-alimentaire" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Rouleaux <br>Film Alimentaire Professionnels</h5>
+          <p class="card-text">Taille 33x45</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="46">
+        <div id="146"></div>
+        <img src="images-data\images-produits\rlx-aluminium-boite-distributrice-200-m-x-45-cm-2192318298.jpg"
+          class="card-img-top" alt="film-aluminium" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Rouleaux <br>Film Aluminium Professionnels</h5>
+          <p class="card-text">Taille 33x45</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="47">
+        <div id="147"></div>
+        <div id="148"></div>
+        <img src="images-data\images-produits\SAC-POUBEL.png" class="card-img-top" alt="sac-poubelle">
+        <div class="card-body">
+          <h5 class="card-title">Sac Poubelles</h5>
+          <p class="card-text">Taille 110L /130L /160L /240L /340L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="48">
+        <div id="149"></div>
+        <img src="images-data\images-produits\PLONGE-AVANTAGE.png" class="card-img-top" alt="plonge-manuel-vaiselle">
+        <div class="card-body">
+          <h5 class="card-title">Plonge Manuelle Vaisselle</h5>
+          <p class="card-text">Taille 5L /20L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="49">
+        <div id="150"></div>
+        <div id="151"></div>
+        <img src="images-data\images-produits\DECAPANT-FOUR-ACIDE-5L.jfif" class="card-img-top"
+          alt="decapant-four-acide">
+        <div class="card-body">
+          <h5 class="card-title">Décapant Four Acide</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="50">
+        <div id="152"></div>
+        <div id="153"></div>
+        <div id="154"></div>
+        <img src="images-data\images-produits\DYACIL_MAXI_PAE_5L.jpg" class="card-img-top" alt="dyacil-5L">
+        <div class="card-body">
+          <h5 class="card-title">DYACIL Détergent Désinfectant Cuisine <br>(En centrale)</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="51">
+        <div id="155"></div>
+        <img src="images-data\images-produits\CHLORMOUSS-5L.jpg" class="card-img-top" alt="chlormouss-5L">
+        <div class="card-body">
+          <h5 class="card-title">Chlormouss Détergent/Blanchisseur Cuisine</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="52">
+        <div id="156"></div>
+        <img src="images-data\images-produits\DUOSOL-2D-PAMPL.jfif" class="card-img-top" alt="duosol-2D">
+        <div class="card-body">
+          <h5 class="card-title">DUOSOL 2D</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="53">
+        <div id="157"></div>
+        <div id="158"></div>
+        <img src="images-data\images-produits\deboucheur.jpg" class="card-img-top" alt="deboucheur-canalisation">
+        <div class="card-body">
+          <h5 class="card-title">Déboucheur Traitement des Canalisations</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="54">
+        <div id="159"></div>
+        <img src="images-data\images-produits\ALCOOL-MENAGER-1L.jfif" class="card-img-top" alt="alcool-ménager">
+        <div class="card-body">
+          <h5 class="card-title">Alcool Ménager Citron</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="55">
+        <div id="160"></div>
+        <img src="images-data\images-produits\PROTARTRE-5L.jpg" class="card-img-top" alt="protartre">
+        <div class="card-body">
+          <h5 class="card-title">Pro Tartre Détartrant Machine</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="56">
+        <img src="images-data\images-produits\ASSOUPLISSANT-5L.jpg" class="card-img-top" alt="assouplissant">
+        <div class="card-body">
+          <h5 class="card-title">Assouplissant</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="57">
+        <img src="images-data\images-produits\JAVEL-5L.jpeg" class="card-img-top" alt="javel" height="300">
+        <div class="card-body">
+          <h5 class="card-title">JAVEL</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="58">
+        <div id="161"></div>
+        <img src="images-data\images-produits\legno-ok.png" class="card-img-top" alt="legno" height="300">
+        <div class="card-body">
+          <h5 class="card-title">LEGNO Spécial Parquet</h5>
+          <p class="card-text">Taille 3L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="59">
+        <div id="162"></div>
+        <img src="images-data\images-produits\LIQUIDE-LAVAGE-MACHINE-TT-EAUX-5L.jfif" class="card-img-top"
+          alt="liquide-lavage-machine-5L" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Liquide Lavage Machine Automatique</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
+        <img src="images-data\images-produits\liquide-senet.png" class="card-img-top" alt="liquide-lavage-machine-20L"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Liquide Lavage Machine Automatique</h5>
+          <p class="card-text">Taille 20L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="60">
+        <div id="163"></div>
+        <img src="images-data\images-produits\SPRAY-NETTOYANT-INOX.png" class="card-img-top" alt="spray-nettoyant-inox"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Spray Nettoyant Inox</h5>
+          <p class="card-text">Taille 750ML</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="61">
+        <img src="images-data\images-produits\SPRAY-NETTOYANT-FOUR.jfif" class="card-img-top" alt="spray-four-nettoyant"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Spray Nettoyant <br>Four/Friteuse/Hotte</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="62">
+        <div id="164"></div>
+        <div id="165"></div>
+        <img src="images-data\images-produits\spray-degraissant-detergent.jpg" class="card-img-top"
+          alt="spray-dégraissant-détergent" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Spray Dégraissant/Détergent</h5>
+          <p class="card-text">Taille 750ML</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="63">
+        <img src="images-data\images-produits\DEGRAISSANT-NETTOYANT-PLANCHA-1L.png" class="card-img-top"
+          alt="nettoyant-plancha" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Nettoyant Plancha</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="64">
+        <div id="166"></div>
+        <img src="images-data\images-produits\PASTILLE-CHRLOREE.jfif" class="card-img-top" alt="pastille-chlore"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Pastille Chlore 150P</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="65">
+        <div id="167"></div>
+        <img src="images-data\images-produits\gants-nitrile-ambidextres-noirs.jpg" class="card-img-top"
+          alt="gants-nitrile" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Gants Nitrile</h5>
+          <p class="card-text">Taille S/M/L/XL</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="66">
+        <img src="images-data\images-produits\GANT-LATEX-SMLXL.jfif" class="card-img-top" alt="gants-latex"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Gants Latex</h5>
+          <p class="card-text">Taille S/M/L/XL</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="67">
+        <img src="images-data\images-produits\VIGNAIGRE-ALCOOL-BLANC.webp" class="card-img-top"
+          alt="vianigre-alcool-blanc" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Vinaigre Alcool Blanc</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="68">
+        <div id="168"></div>
+        <div id="169"></div>
+        <img src="images-data\images-produits\dégraissant-multi-surfaces-5L.jpg" class="card-img-top"
+          alt="dégraissant-multi-surface" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Dégraissant <br>Multi-Surfaces</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="69">
+        <img src="images-data\images-produits\SEL-ADOUCISSEUR.jfif" class="card-img-top" alt="sel-adoucisseur"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Sel pour Adoucisseur</h5>
+          <p class="card-text">Taille 25Kg</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="70">
+        <img src="images-data\images-produits\PASTILLE-LAVE-VAISSELLE-ORLAV-5EN1.png" class="card-img-top"
+          alt="pastille-lave-vaisselle" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Pastille Lave-vaisselle 5en1 ORLAV 150P</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="71">
+        <div id="170"></div>
+        <img src="images-data\images-produits\LIQUIDE-RINCAGE-ET-SECHAGE-5L.jfif" class="card-img-top"
+          alt="liquide-rinçage-machine-pro" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Liquide Rinçage Machine Professionnelle</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="72">
+        <div id="171"></div>
+        <img src="images-data\images-produits\raclette-sol-bleu-55-cm-livree-avec-manche-telescopique.jpg"
+          class="card-img-top" alt="raclette-plus-manche-aluminium" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Raclette avec Manche Aluminium</h5>
+          <a href="contact.html" class="btn btn-success mt-3">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="col-sm-12 mt-5 text-center">
+        <h3 class="img-section-title" id="hygiene-sanitaire">Hygiène Sanitaire</h3>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="73">
+        <img src="images-data\MAXI-JUMBO.jpg" class="card-img-top" alt="maxi-jumbo" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Maxi Jumbo</h5>
+          <p class="card-text">Taille 1x6</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="74">
+        <img src="images-data\images-produits\MINI-JUMBO1.jpg" class="card-img-top" alt="mini-jumbo" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Mini Jumbo</h5>
+          <p class="card-text">Taille 1x12</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="75">
+        <div id="172"></div>
+        <div id="173"></div>
+        <img src="images-data\images-produits\ESSUIE-MAINS-ENCHEVETRE.jfif" class="card-img-top"
+          alt="essuie-main-enchevetre" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Essuie Main Enchevêtré</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="76">
+        <div id="174"></div>
+        <img src="images-data\images-produits\papier-hygienique-feuille-a-feuille.jpg" class="card-img-top"
+          alt="papier-hygienique-feuille-a-feuille" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Papier Hygiènique feuille à feuille</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="77">
+        <div id="175"></div>
+        <div id="176"></div>
+        <img src="images-data\images-produits\pq-96.webp" class="card-img-top" alt="papier-hygienique-toilette"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Rouleaux Papier Hygiènique Toilette</h5>
+          <p class="card-text">Taille 1x96 500F</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="78">
+        <div id="177"></div>
+        <img src="images-data\images-produits\PQ-MAXI40.jpeg" class="card-img-top" alt="papier-hygienique-maxi"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Rouleaux Papier Hygiènique Maxi</h5>
+          <p class="card-text">Taille 1x40</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="79">
+        <img src="images-data\images-produits\TORK-T9.jpg" class="card-img-top" alt="rlx-torck-T9" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Rouleaux Torck T8/T9</h5>
+          <p class="card-text">Taille T8 1x6</p>
+          <p class="card-text">Taille T9 1x12</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="80">
+        <div id="178"></div>
+        <img src="images-data\images-produits\SPRAY-MULTISURFACE.jpg" class="card-img-top" alt="spray-sanitaire-multi"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Spray Sanitaire Multi-Surface</h5>
+          <p class="card-text">Taille 750ML</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="81">
+        <img src="images-data\images-produits\GEL-WC.jfif" class="card-img-top" alt="gel-wc" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Gel WC</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="82">
+        <div id="179"></div>
+        <img src="images-data\images-produits\crème-lavante-5L.jpg" class="card-img-top" alt="savon-main" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Savon Main</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="83">
+        <div id="180"></div>
+        <img src="images-data\images-produits\ecran-urinoir2.jpg" class="card-img-top" alt="ecran-urinoir" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Ecran Urinoir</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="col-sm-12 mt-5 text-center">
+        <h3 class="img-section-title" id="hygiene-de-bar-salle">Hygiène de Bar/Salle</h3>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="84">
+        <div id="181"></div>
+        <img src="images-data\images-produits\LAVEMICROFIBRE-ROSE.jfif" class="card-img-top" alt="lavette-microfibre"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lavette Microfibre</h5>
+          <p class="card-text">Couleur: Bleu/Vert/Rose/Jaune</p>
+          <p class="card-text">Taille 1x10</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="85">
+        <img src="images-data\images-produits\lavette-ajouree-non-tissee-lot-de-25.jpg" class="card-img-top"
+          alt="lavette-ajourée" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lavette Ajourée</h5>
+          <p class="card-text">Taille 50x30</p>
+          <p class="card-text">Pack 1x25 unités</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
+        <img src="images-data\images-produits\FRANGE-ESPAGNOL.jpeg" class="card-img-top" alt="frange-espagnol"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Frange Espagnol</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="86">
+        <div id="182"></div>
+        <img src="images-data\images-produits\SAC-POUBELLE.jpeg" class="card-img-top" alt="sac-poubelle" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Sacs Poubelles</h5>
+          <p class="card-text">Taille 30L /50L /110L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="87">
+        <img src="images-data\images-produits\NETTOYANT-VITRE 5L.jfif" class="card-img-top" alt="nettoyant-vitre"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Nettoyant Vitre</h5>
+          <p class="card-text">Taille 5L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="88">
+        <img src="images-data\images-produits\SPRAY-VITRES.jfif" class="card-img-top" alt="spray-vitre" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Spray Vitre</h5>
+          <p class="card-text">Taille 750ML</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
+        <img src="images-data\images-produits\gants-nitrile-ambidextres-noirs.jpg" class="card-img-top"
+          alt="gants-nitrile" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Gants Nitrile</h5>
+          <p class="card-text">Taille S/M/L/XL</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;">
+        <img src="images-data\images-produits\GANT-LATEX-SMLXL.jfif" class="card-img-top" alt="gants-latex"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Gants Latex</h5>
+          <p class="card-text">Taille S/M/L/XL</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="89">
+        <img src="images-data\images-produits\balais-français-manche-bois.png" class="card-img-top" alt="balai-français"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Balai Français</h5>
+          <p class="card-text">Manche Bois/Aluminium</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="90">
+        <div id="183"></div>
+        <div id="184"></div>
+        <img src="images-data\images-produits\éponges-magiques.jpg" class="card-img-top" alt="eponges-magiques"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Eponges Magiques</h5>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="91">
+        <img src="images-data\images-produits\LAVE-VERRE-1L.jpg" class="card-img-top" alt="lave-verres" height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lave Verres</h5>
+          <p class="card-text">Taille 1L</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+      <div class="card col-sm-3 mx-auto mt-5" style="width: 18rem;" id="92">
+        <div id="185"></div>
+        <img src="images-data\images-produits\rince-doigt-parfum-citron.jpg" class="card-img-top" alt="lave-verres"
+          height="300">
+        <div class="card-body">
+          <h5 class="card-title">Lingettes Rince-Doigts</h5>
+          <p class="card-text">Taille 1x1000</p>
+          <a href="contact.html" class="btn btn-success">Contactez-nous</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--Footer Section-->
+
+  <footer class="container-fluid footer">
+    <div class="row">
+      <div class="col-sm-3 mx-auto text-center footer-main-article">
+        <h5 class="footer-main-title">MPC-AGENCY</h5>
+        <p class="mt-3">Entreprise présente dans les alpes-maritimes</p>
+        <p>Nous vous livrons de Nice à Mandelieu</p>
+      </div>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Contact</h5>
+        <a href="tel:+33698062012" style="color: white;text-decoration: none;">Maxime Coqurelle,<br>06.98.06.20.12</a>
+      </div>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Mentions Légales</h5>
+        <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-c-circle"></i> MPC-Agency 2023</a>
+      </div>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Liens</h5>
+        <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-facebook"></i></a>
+        <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-twitter"></i></a>
+        <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="container-fluid">
+    <div class="row text-center">
+      <button id="myBtn" title="Retour Haut-de-Page" class="btn btn-primary">Haut-de-Page</button>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
