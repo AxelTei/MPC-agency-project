@@ -1,175 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="pinterest" content="nopin" />
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>MPC agency | Accueil</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="pinterest" content="nopin" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>MPC agency | Accueil</title>
 </head>
+
 <body class="body">
 
   <!--Navbar Section-->
 
-    <nav class="navbar navbar-expand-lg background-navbar navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">
-            <img src="images-data\logo-MPC-overlay.png" alt="logo MPC" class="nav-image nav-image-logo" height="130">
-            <div class="nav-logo"><img src="images-data\logo-MPC.jpg" alt="title MPC" class="nav-title" width="400" height="130"></div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active nav-size" aria-current="page" href="home.html">Accueil</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle nav-size" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Catalogue
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="catalogue.html">Sommaire</a></li>
-                  <li><a class="dropdown-item" href="serviettes.html">Serviettes</li>
-                  <li><a class="dropdown-item" href="setDeTables.html">Set de table</a></li>
-                  <li><a class="dropdown-item" href="hygienes.html">Hygiènes</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="aEmporter.html"><span style="text-transform: capitalize;">à</span> emporter</a></li>
-                  <li><a class="dropdown-item" href="divers.html">Divers</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-size" href="contact.html">Contact</a>
-              </li>
-            </ul>
-            <div class="container-fluid text-center">
-              <a href="home.html" class="navbar-brand">
-                <img src="images-data\logo-MPC.jpg" alt="title MPC" width="400" height="130" class="nav-image nav-title">
-              </a>
-            </div>
-            <form class="d-flex px-2 w-50" role="search">
-              <input class="form-control me-3 pe-5" type="search" placeholder="Rechercher" aria-label="Search" id="inputSearch">
-              <button class="btn btn-outline nav-loupe" id="searchProduct" type="submit"><i class="bi bi-search"></i></button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-    <!-- Breadcrumb-->
-
+  <nav class="navbar navbar-expand-lg background-navbar navbar-dark">
     <div class="container-fluid">
-      <div class="row text-center">
-        <button id="myBtn" title="Retour Haut-de-Page" class="btn btn-primary">Haut-de-Page</button>
+      <a class="navbar-brand" href="home.html">
+        <img src="images-data\logo-MPC-overlay.png" alt="logo MPC" class="nav-image nav-image-logo" height="130">
+        <div class="nav-logo"><img src="images-data\logo-MPC.jpg" alt="title MPC" class="nav-title" width="400"
+            height="130"></div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active nav-size" aria-current="page" href="home.html">Accueil</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-size" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catalogue
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="catalogue.html">Sommaire</a></li>
+              <li><a class="dropdown-item" href="serviettes.html">Serviettes</li>
+              <li><a class="dropdown-item" href="setDeTables.html">Set de table</a></li>
+              <li><a class="dropdown-item" href="hygienes.html">Hygiènes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="aEmporter.html"><span style="text-transform: capitalize;">à</span>
+                  emporter</a></li>
+              <li><a class="dropdown-item" href="divers.html">Divers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-size" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="container-fluid text-center">
+          <a href="home.html" class="navbar-brand">
+            <img src="images-data\logo-MPC.jpg" alt="title MPC" width="400" height="130" class="nav-image nav-title">
+          </a>
+        </div>
+        <form class="d-flex px-2 w-50" role="search">
+          <input class="form-control me-3 pe-5" type="search" placeholder="Rechercher" aria-label="Search"
+            id="inputSearch">
+          <button class="btn btn-outline nav-loupe" id="searchProduct" type="submit"><i
+              class="bi bi-search"></i></button>
+        </form>
       </div>
     </div>
+  </nav>
 
-    <!-- Hero Section -->
+  <!-- Breadcrumb-->
 
-    <main>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <button id="myBtn" title="Retour Haut-de-Page" class="btn btn-primary">Haut-de-Page</button>
+    </div>
+  </div>
 
-      <div class="container-fluid">
+  <!-- Hero Section -->
+
+  <main>
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images-data\cusine-carroussel-accueil.jpg" class="d-block w-100 home-carousel"
+                alt="cuisine pro">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-data\cuisine-accueil.jpg" class="d-block w-100 home-carousel" alt="cuisine pro">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images-data\nice.jpg" class="d-block w-100 home-carousel" alt="Nice">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
         <div class="row">
 
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images-data\cusine-carroussel-accueil.jpg" class="d-block w-100" style="height: 800px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images-data\cuisine-accueil.jpg" class="d-block w-100" style="height: 800px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images-data\nice.jpg" class="d-block w-100" style="height: 800px;" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          
+
           <div class="card col-sm-4 mx-auto text-center mt-5" style="width: 16rem;">
             <div class="card-body">
               <h5 class="card-title mt-3">Présentation de l'entreprise</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
 
-            <div class="card col-sm-4 mx-auto text-center mt-5" style="width: 16rem;">
-              <div class="card-body">
-                <h5 class="card-title mt-3">Commentaires</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+          <div class="card col-sm-4 mx-auto text-center mt-5" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title mt-3">Commentaires</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
+          </div>
 
-            <div class="card col-sm-4 mx-auto text-center mt-5" style="width: 16rem;">
-              <div class="card-body">
-                <h5 class="card-title mt-3">Nos partenaires</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+          <div class="card col-sm-4 mx-auto text-center mt-5" style="width: 16rem;">
+            <div class="card-body">
+              <h5 class="card-title mt-3">Zones d'interventions</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
+          </div>
 
         </div>
 
       </div>
 
-    </main>
+    </div>
 
-    <!--Footer Section-->
-    
-    <footer class="container-fluid footer mt-5">
-      <div class="row">
-        <div class="col-sm-3 mx-auto text-center footer-main-article">
-          <h5 class="footer-main-title">MPC-AGENCY</h5>
-          <p class="mt-3">adresse de l'agence</p>
-          <p>Entreprise présente dans les alpes-maritimes</p>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Contact</h5>
-          <a href="#" style="color: white;text-decoration: none;">numéro de tel des agents co</a>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Partenaires</h5>
-          <a href="#" style="color: white;text-decoration: none;">Adresse site fournisseur</a>
-        </div>
-        <div class="col-sm-3 mx-auto text-center footer-article">
-          <h5 class="footer-title">Liens</h5>
-          <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-facebook"></i></a>
-          <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-twitter"></i></a>
-          <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-instagram"></i></a>
-        </div>
+  </main>
+
+  <!--Footer Section-->
+
+  <footer class="container-fluid footer mt-5">
+    <div class="row">
+      <div class="col-sm-3 mx-auto text-center footer-main-article">
+        <h5 class="footer-main-title">MPC-AGENCY</h5>
+        <p class="mt-3">adresse de l'agence</p>
+        <p>Entreprise présente dans les alpes-maritimes</p>
       </div>
-    </footer>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Contact</h5>
+        <a href="#" style="color: white;text-decoration: none;">numéro de tel des agents co</a>
+      </div>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Mentions Légales</h5>
+        <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-c-circle"></i> MPC-Agency 2023</a>
+      </div>
+      <div class="col-sm-3 mx-auto text-center footer-article">
+        <h5 class="footer-title">Liens</h5>
+        <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-facebook"></i></a>
+        <a href="#" style="color: white;text-decoration: none;padding-right: 1rem;"><i class="bi bi-twitter"></i></a>
+        <a href="#" style="color: white;text-decoration: none;"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
