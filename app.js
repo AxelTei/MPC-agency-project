@@ -1058,6 +1058,7 @@ function mainSearchBar(e) {
 }
 
 navbarInput.addEventListener('blur', mainSearchBar)
+navbarButton.addEventListener('click', mainSearchBar)
 
 // Card Product - Link Button Functions
 
