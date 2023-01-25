@@ -1048,7 +1048,18 @@ function mainSearchBar(e) {
     let input = e.target.value
     let filter = input.toLowerCase()
     products.forEach(function(product) {
-        console.log(product)
+        if (filter == product.title) {
+            document.location.replace(product.category + ".html#" + product.id)
+        } else {
+            return false;
+        }
+    })
+}
+
+function mainSearchButton() {
+    let input = navbarInput.value
+    let filter = input.toLowerCase()
+    products.forEach(function(product) {
         if (filter == product.title) {
             document.location.replace(product.category + ".html#" + product.id)
         } else {
@@ -1058,7 +1069,7 @@ function mainSearchBar(e) {
 }
 
 navbarInput.addEventListener('blur', mainSearchBar)
-navbarButton.addEventListener('click', mainSearchBar)
+navbarButton.addEventListener('click', mainSearchButton)
 
 // Card Product - Link Button Functions
 
